@@ -55,7 +55,7 @@ GEM
       debug_inspector (>= 0.0.1)
     bson (4.3.0)
     bson (4.3.0-java)
-    builder (3.2.3)
+    builder (3.2.4)
     byebug (10.0.2)
     callsite (0.0.11)
     campy (1.0.0)
@@ -69,15 +69,14 @@ GEM
       xpath (~> 3.2)
     cliver (0.3.2)
     coderay (1.1.2)
-    concurrent-ruby (1.0.5)
-    concurrent-ruby (1.0.5-java)
+    concurrent-ruby (1.1.6)
     coveralls (0.8.22)
       json (>= 1.8, < 3)
       simplecov (~> 0.16.1)
       term-ansicolor (~> 1.3)
       thor (~> 0.19.4)
       tins (~> 1.6)
-    crass (1.0.4)
+    crass (1.0.6)
     css_parser (1.6.0)
       addressable
     debug_inspector (0.0.3)
@@ -154,18 +153,18 @@ GEM
     json (2.1.0)
     json (2.1.0-java)
     jwt (2.1.0)
-    kaminari (1.1.1)
+    kaminari (1.2.1)
       activesupport (>= 4.1.0)
-      kaminari-actionview (= 1.1.1)
-      kaminari-activerecord (= 1.1.1)
-      kaminari-core (= 1.1.1)
-    kaminari-actionview (1.1.1)
+      kaminari-actionview (= 1.2.1)
+      kaminari-activerecord (= 1.2.1)
+      kaminari-core (= 1.2.1)
+    kaminari-actionview (1.2.1)
       actionview
-      kaminari-core (= 1.1.1)
-    kaminari-activerecord (1.1.1)
+      kaminari-core (= 1.2.1)
+    kaminari-activerecord (1.2.1)
       activerecord
-      kaminari-core (= 1.1.1)
-    kaminari-core (1.1.1)
+      kaminari-core (= 1.2.1)
+    kaminari-core (1.2.1)
     kaminari-mongoid (1.0.1)
       kaminari-core (~> 1.0)
       mongoid
@@ -175,7 +174,7 @@ GEM
       addressable (~> 2.3)
       spoon (~> 0.0.1)
     libv8 (3.16.14.19)
-    loofah (2.2.3)
+    loofah (2.5.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -190,8 +189,8 @@ GEM
     mime-types-data (3.2016.0521)
     mimemagic (0.3.2)
     mini_mime (1.0.1)
-    mini_portile2 (2.3.0)
-    minitest (5.11.3)
+    mini_portile2 (2.4.0)
+    minitest (5.14.1)
     mongo (2.6.2)
       bson (>= 4.3.0, < 5.0.0)
     mongoid (5.4.0)
@@ -213,9 +212,9 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     netrc (0.11.0)
-    nokogiri (1.8.5)
-      mini_portile2 (~> 2.3.0)
-    nokogiri (1.8.5-java)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.9-java)
     oauth2 (1.4.1)
       faraday (>= 0.8, < 0.16.0)
       jwt (>= 1.0, < 3.0)
@@ -296,8 +295,8 @@ GEM
       activesupport (>= 4.2.0, < 5.0)
       nokogiri (~> 1.6)
       rails-deprecated_sanitizer (>= 1.0.1)
-    rails-html-sanitizer (1.0.4)
-      loofah (~> 2.2, >= 2.2.2)
+    rails-html-sanitizer (1.3.0)
+      loofah (~> 2.3)
     rails_12factor (0.0.3)
       rails_serve_static_assets
       rails_stdout_logging
@@ -405,7 +404,7 @@ GEM
     tilt (2.0.8)
     timecop (0.9.1)
     tins (1.16.3)
-    tzinfo (1.2.5)
+    tzinfo (1.2.7)
       thread_safe (~> 0.1)
     uglifier (4.1.20)
       execjs (>= 0.3.0, < 3)
@@ -460,7 +459,7 @@ DEPENDENCIES
   httparty
   jquery-rails
   json
-  kaminari
+  kaminari (>= 1.2.1)
   kaminari-mongoid
   launchy
   meta_request
@@ -499,4 +498,4 @@ DEPENDENCIES
   yajl-ruby
 
 BUNDLED WITH
-   1.16.2
+   1.17.3
