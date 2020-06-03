@@ -80,7 +80,7 @@ group :test do
   gem 'mongoid-rspec', require: false
   gem 'fabrication'
   gem 'capybara'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.18.1'
   gem 'phantomjs'
   gem 'launchy'
   gem 'email_spec'
